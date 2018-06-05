@@ -1,8 +1,8 @@
 def oxford_comma(array)
   new_array = ""
   array.each do |element|
-    element.join(",")
     new_array << element
+    element.join(",")
     p new_array
   end
 
